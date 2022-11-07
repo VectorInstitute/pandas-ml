@@ -220,7 +220,7 @@ def _wrap_data_plot(func, func_name):
 _xy_plots = ['jointplot', 'lmplot', 'regplot', 'residplot']
 _attach_methods(SeabornMethods, _wrap_xy_plot, _xy_plots)
 
-_categorical_plots = ['factorplot', 'boxplot', 'violinplot', 'stripplot',
+_categorical_plots = ['catplot', 'boxplot', 'violinplot', 'stripplot',
                       'pointplot', 'barplot']
 _attach_methods(SeabornMethods, _wrap_categorical_plot, _categorical_plots)
 
